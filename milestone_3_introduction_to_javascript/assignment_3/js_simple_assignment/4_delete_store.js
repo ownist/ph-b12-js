@@ -14,3 +14,16 @@ if (grabFileName.startsWith("#")) {
 } else {
   console.log("Delete");
 }
+
+/**
+ * using shortcut
+ */
+if (
+  grabFileName.startsWith("#") ||
+  grabFileName.endsWith(".pdf") ||
+  grabFileName.endsWith(".docx")
+) {
+  console.log("Store");
+} else {
+  console.log("Delete");
+}
