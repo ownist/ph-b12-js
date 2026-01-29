@@ -1,9 +1,9 @@
 /**
  * ekta array theke sobgulo upadan jog kore jei jogfol ta return korte hobe
  */
-let sum = 0;
 
 function sumOfArray(arr) {
+  let sum = 0;
   for (const num of arr) {
     sum += num;
   }
